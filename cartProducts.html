@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart| Cart page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/ShoppingCart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="brand">Shopping Cart</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html"> Sign In </a></li>
+                        <li><a href="register.html"> Sign Up </a></li>
+                    </ul>
+                    <ul id="user_info">
+                        <li>
+                            <a href="profile.html" id="user"></a>
+                        </li>
+                        <li>
+                            <a href="favorites.html">Favorites</a>
+                            <a href="myProducts.html">My Products</a>
+                        </li>
+                        <li class="shoppingCart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge"></span>
+                            <div class="carts_products">
+                                <div></div>
+                                <a href="cartProducts.html"> view all products</a>
+                            </div>
+
+                        </li>
+                        <li>
+                            <a href="#" id="logout"> Log Out</a>
+
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container">
+            <div class="products">
+            </div>
+            <div class="noProducts">
+
+            </div>
+        </div>
+        <a href="createProduct.html" class="create-product-icon"><i class="fa fa-plus" ></i> </a>
+    </section>
+
+    <script src="js/user.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cartMenue.js"></script>
+    <script src="js/cartProducts.js"></script>
+
+</body>
+
+</html>

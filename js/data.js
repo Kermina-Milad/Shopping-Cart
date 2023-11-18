@@ -1,0 +1,36 @@
+let productsDB = [{
+        id: 1,
+        title: 'headphone item',
+        desc: "descriping the product",
+        size: 'large',
+        imageUrl: 'images/headphones.jpg',
+        qty: 1,
+        isMe: 'n',
+    },
+    {
+        id: 2,
+        title: 'labtop item',
+        desc: "descriping the product",
+        size: 'small',
+        imageUrl: 'images/laptop.jpg',
+        qty: 1,
+        isMe: 'n',
+    }, {
+        id: 3,
+        title: 'watch item',
+        desc: "descriping the product",
+        size: 'medium',
+        imageUrl: 'images/watch.jpg',
+        qty: 1,
+        isMe: 'n',
+    }, {
+        id: 4,
+        title: 'glasses item',
+        desc: "descriping the product",
+        size: 'large',
+        imageUrl: 'images/glasses.jpg',
+        qty: 1,
+        isMe: 'n',
+    },
+];
+//localStorage.setItem('products', JSON.stringify(productsDB));
